@@ -4,7 +4,7 @@ default = "Suman"
 }
 
  
-variable "bucket_env" {
+variable "env_name" {
 type = string
 default = "DEV"
 }
