@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "s3_suman" {
-  bucket = "suman-bucket"
+  bucket = "suman-bucket-Deloitte-terra"
   acl    = "private"
 
   tags = {
