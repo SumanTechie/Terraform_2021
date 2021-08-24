@@ -19,7 +19,7 @@ resource "aws_s3_bucket" "s3_suman" {
   acl    = "private"
 
   tags = {
-    Name        = var.instance_name
-    Environment = var.instance_type
+    Name        = "Suman's bucket"
+    Environment = "Dev"
   }
 }
