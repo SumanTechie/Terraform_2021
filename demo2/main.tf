@@ -19,7 +19,7 @@ resource "aws_s3_bucket" "s3_suman1" {
   acl    = "private"
 
   tags = {
-    Name        = "Suman's bucket"
-    Environment = "Dev1"
+    Name        = var.bucket_name
+    Environment = var.env_name
   }
 }
