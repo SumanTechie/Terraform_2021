@@ -14,12 +14,12 @@ provider "aws" {
   region = "us-west-2"
 }
 
-resource "aws_s3_bucket" "s3_suman" {
-  bucket = "suman-test-bucket"
+resource "aws_s3_bucket" "s3_suman1" {
+  bucket = "suman-bucket"
   acl    = "private"
 
   tags = {
     Name        = "Suman's bucket"
-    Environment = "Dev"
+    Environment = "Dev1"
   }
 }
